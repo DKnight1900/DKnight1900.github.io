@@ -129,14 +129,15 @@ import settings
     <LocationMatch "\.(jpg|gif|png|txt|ico|pdf|css|jpeg)$"> 
         SetHandler None 
     </LocationMatch>
-</IfModule>
-```
+</IfModule>```
+
 * static location without cgi but itself
 
 ```
 <Location "/static/">
   SetHandler None
-</Location>```
+</Location>
+```
 
 发现并无效果，最后修改django配置文件最后才解决了。
 不过根据上面的一些配置知识可知，这样的修改是不够完美的，如果是为了以后的大项目做准备，应该遵循上面提到的**开发环境和发布环境分开配置**的原则。
