@@ -1,3 +1,12 @@
+---
+layout: post
+title: "apache 部署 django admin css消失问题"
+date: 2015-5-26
+excerpt: "apache 部署 django admin css消失问题."
+tags: [django]
+comments: true
+---
+
 #一、apache 部署 django admin css消失问题
 ##问题描述
 根据**《The Django Book 2rd》**开发出的网站在*django*自己的*web server*上跑时，*admin*管理后台没有问题，但是使用*Apache*部署的时候，再打开*admin*却很奇怪地发现没有样式。
