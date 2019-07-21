@@ -1,3 +1,11 @@
+---
+layout: post
+title: "GC in python"
+date: 2015-5-26
+excerpt: "Python常见的垃圾收集(garbage collection)算法."
+tags: [python,GC]
+comments: true
+---
 #GC in python
 ##常见的GC算法
 常见的垃圾收集(garbage collection)算法主要有一下几种。
