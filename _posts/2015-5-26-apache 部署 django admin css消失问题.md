@@ -96,7 +96,8 @@ D:\TestDjango\TestDjango\static\Chrome.jpg
 ### 步骤
 - 设置`settings.py`中的*STATICFILES_FINDERS*、*STATIC_ROOT*
 
-```STATICFILES_FINDERS = (
+```
+STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
