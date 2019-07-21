@@ -116,7 +116,7 @@ import settings
 其实有尝试修改Apache的配置文件`httpd.conf`：
 
 * 将样式路径指向django默认的样式路径
-	```
+```
     Alias /static/admin D:/Python27/Lib/site-packages/django-1.7.1-py2.7.egg/django/contrib/admin/static/admin
 	<Directory "D:/Python27/Lib/site-packages/django-1.7.1-py2.7.egg/django/contrib/admin/static/admin"> 
         AllowOverride None 
@@ -130,7 +130,8 @@ import settings
     <LocationMatch "\.(jpg|gif|png|txt|ico|pdf|css|jpeg)$"> 
         SetHandler None 
     </LocationMatch>
-</IfModule>```
+</IfModule>
+```
 
 * static location without cgi but itself
 
