@@ -9,7 +9,7 @@ comments: true
 
 # 一、apache 部署 django admin css消失问题
 ## 问题描述
-根据**《The Django Book 2rd》**开发出的网站在*django*自己的*web server*上跑时，*admin*管理后台没有问题，但是使用*Apache*部署的时候，再打开*admin*却很奇怪地发现没有样式。
+根据 **《The Django Book 2rd》** 开发出的网站在 *django* 自己的 *web server* 上跑时， *admin* 管理后台没有问题，但是使用 *Apache* 部署的时候，再打开*admin*却很奇怪地发现没有样式。
 习惯性地打开chrome的调试选项，会发现css文件都是`file not found`，这说明文件路径配置不对，那应该怎么配置呢？
 
 ## 查资料得知django中相关配置项
@@ -109,8 +109,7 @@ import settings
 ##### 其他
 其实有尝试修改Apache的配置文件`httpd.conf`：
 
-1.
-# -----------------------------将样式路径指向django默认的样式路径----------------------
+* 将样式路径指向django默认的样式路径
 	`Alias /static/admin D:/Python27/Lib/site-packages/django-1.7.1-py2.7.egg/django/contrib/admin/static/admin
 	<Directory "D:/Python27/Lib/site-packages/django-1.7.1-py2.7.egg/django/contrib/admin/static/admin"> 
         AllowOverride None 
@@ -125,8 +124,7 @@ import settings
         SetHandler None 
     </LocationMatch>
 </IfModule>`
-2.
-# ------------static location without cgi but itself--------------
+* static location without cgi but itself
 `<Location "/static/">
   SetHandler None
 </Location>`
