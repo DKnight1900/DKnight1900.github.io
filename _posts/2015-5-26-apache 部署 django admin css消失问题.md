@@ -3,7 +3,7 @@ layout: post
 title: "apache 部署 django admin css消失问题"
 date: 2015-5-26
 excerpt: "apache 部署 django admin css消失问题."
-tags: [django]
+tags: [django,python]
 comments: true
 ---
 
