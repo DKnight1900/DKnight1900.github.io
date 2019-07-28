@@ -9,5 +9,5 @@ comments: true
 *[《wtfpython-cn》](https://github.com/leisurelicht/wtfpython-cn)
 
 <figure>
-	<a href="assets/img/wtfpython_cn.jpg"><img src="assets/img/wtfpython_cn.jpg"></a>
+	<a href="../assets/img/wtfpython_cn.jpg"><img src="../assets/img/wtfpython_cn.jpg"></a>
 </figure>
