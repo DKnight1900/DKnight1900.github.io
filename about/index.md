@@ -15,4 +15,4 @@ CSDN:[@白交_robin](http://blog.csdn.net/chendejiao?viewmode=contents)
 
 ### Contact me
 
-[hellorobin2009@foxmail.com](mailto:email@domain.com)
+[hellorobin2009[at]foxmail.com](mailto:email@domain.com)
